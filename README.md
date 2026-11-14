@@ -1,10 +1,10 @@
-# Md. Rashedul Islam | Academic Portfolio Version 5
+# Md. Rashedul Islam | Academic Portfolio V6
 
-Updates: homepage photo replaced with the graduation-style photo at the Faculty of Engineering, University of the Ryukyus.
+This version fixes the graduation photograph crop. The entire 4:3 photograph is visible in the homepage card with no forced cropping. All other content is retained.
 
-## Publish on GitHub Pages
-1. Open your existing repository: https://github.com/raselrana182/mdrashedul-protfolio
-2. Upload `index.html` and `profile-photo.jpg` at the root of the repository, replacing the existing files when prompted. Keep `resume.pdf` in the root.
-3. Commit changes. GitHub Pages will automatically republish from the `main` branch and `/(root)` folder.
+## Update your GitHub Pages website
+1. Open https://github.com/raselrana182/mdrashedul-protfolio
+2. Replace **index.html** at the repository root with the version in this folder. Your existing **profile-photo.jpg** does not need replacing if you have already uploaded the V5 photograph.
+3. Commit the change and reload https://raselrana182.github.io/mdrashedul-protfolio/ (hard refresh if cached).
 
-Your site URL: https://raselrana182.github.io/mdrashedul-protfolio/
+If you are uploading from scratch, include index.html, profile-photo.jpg and resume.pdf.
