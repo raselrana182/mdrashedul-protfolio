@@ -25,9 +25,29 @@
 @media(max-width:620px){.project{padding:23px}.hero{padding-top:60px}.hero h1{font-size:clamp(2.5rem,11vw,4rem)}.hero-card{padding:23px}.top-links{gap:16px}}
 
 /* Professional conference photograph, replacing the monogram */
-.hero-card .profile-photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;border-radius:15px;margin-bottom:26px;border:1px solid rgba(255,255,255,.16);background:#21364c}
+/* .hero-card .profile-photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;border-radius:15px;margin-bottom:26px;border:1px solid rgba(255,255,255,.16);background:#21364c} */
+.hero-card .profile-photo {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 15px;
+    margin-bottom: 26px;
+}    
 .hero-card:after{display:none}
-@media(max-width:620px){.hero-card .profile-photo{height:auto;aspect-ratio:4/3;object-fit:contain}}
+
+@media (max-width: 620px) {
+    .hero-card .profile-photo {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 15px;
+    }
+}
+
+/* @media(max-width:620px){.hero-card .profile-photo{height:auto;aspect-ratio:4/3;object-fit:contain}} */
 
 /* Academic background university branding */
 .education-card{position:relative;padding-top:27px}
